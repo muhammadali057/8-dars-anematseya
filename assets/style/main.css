@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/card.jpg);
+    background-size: cover;
+}
+.contanir{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    position: relative;
+    top: 80px;
+    left: 65px;
+    animation: card 10s infinite;
+}
+@keyframes card{
+    0%{
+        top: 80px;
+    left: 65px;
+    }
+    10%{
+        top: 80px;
+    left: 350px;
+    }
+    20%{
+        top: 370px;
+    left: 350px;
+    }
+    30%{
+        top: 370px;
+        left: 1000px;
+    }
+    40%{
+        top: 530px;
+        left: 1000px;
+    }
+    50%{
+        top: 530px;
+        left: 630px;
+    }
+    60%{
+        top: 530px;
+        left: 630px;
+    }
+    70%{
+        top: 480px;
+        left: 630px;
+    }
+    80%{
+        top: 450px;
+        left: 330px;
+    }
+    90%{
+        top: 500px;
+        left: 330px; 
+    }
+    100%{
+        top: 500px;
+        left: 100px;
+    }
+}
